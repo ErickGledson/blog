@@ -1,0 +1,16 @@
+name: "Erick Gledson"
+description: "Desenvolvimento de software"
+meta_description: "Desenvolvimento de software, laboratórios e mais"
+
+markdown: kramdown
+highlighter: rouge
+logo: false
+paginate: 10
+baseurl: /blog
+domain_name: 'http://erickgledson.github.io'
+google_analytics: 'UA-76589608-1'
+gems: [jekyll-paginate]
+
+# Details for the RSS feed generator
+url:            'http://erickgledson.github.io/blog'
+author:         'Erick Gledson'
