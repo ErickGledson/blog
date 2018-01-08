@@ -15,7 +15,7 @@ image: "/assets/images/crud.png"
     Então, sigam-me os bons! :)
 </p>
 
-<img src="/assets/images/crud.png" alt="CRUD"/>
+<img src="{{ site.baseurl }}/assets/images/crud.png" alt="CRUD"/>
 
 <p>
     <h5>Instalação...</h5>
@@ -65,7 +65,7 @@ image: "/assets/images/crud.png"
     show dbs
 </blockquote>
 
-<img src="/assets/images/mongo-crud/mongod.png" alt="">
+<img src="{{ site.baseurl }}/assets/images/mongo-crud/mongod.png" alt="">
 
 <p>
     <h5>Criando um banco</h5>
@@ -76,7 +76,7 @@ image: "/assets/images/crud.png"
     use teste
 </blockquote>
 
-<img src="/assets/images/mongo-crud/use-teste.png" alt="">
+<img src="{{ site.baseurl }}/assets/images/mongo-crud/use-teste.png" alt="">
 
 <p>
     <h5>Criando coleção</h5>
@@ -87,7 +87,7 @@ image: "/assets/images/crud.png"
     db.createCollection("clientes")
 </blockquote>
 
-<img src="/assets/images/mongo-crud/create-collection.png" alt="">
+<img src="{{ site.baseurl }}/assets/images/mongo-crud/create-collection.png" alt="">
 
 <p>
     <h5>Inserindo dados em nossa coleção</h5>
@@ -99,7 +99,7 @@ image: "/assets/images/crud.png"
     db.clientes.insert({nome: "João", cpf: 123})
 </blockquote>
 
-<img src="/assets/images/mongo-crud/insert.png" alt="">
+<img src="{{ site.baseurl }}/assets/images/mongo-crud/insert.png" alt="">
 
 <p>
     <h5>Listando documentos</h5>
@@ -110,7 +110,7 @@ image: "/assets/images/crud.png"
     db.clientes.find()
 </blockquote>
 
-<img src="/assets/images/mongo-crud/find.png" alt="">
+<img src="{{ site.baseurl }}/assets/images/mongo-crud/find.png" alt="">
 
 <p>
     <h5>Listando documentos <small>de uma forma bonitinha</small></h5>
@@ -134,7 +134,7 @@ image: "/assets/images/crud.png"
     ])
 </blockquote>
 
-<img src="/assets/images/mongo-crud/insert-multi.png" alt="">
+<img src="{{ site.baseurl }}/assets/images/mongo-crud/insert-multi.png" alt="">
 
 <p>
     Agora, adicionamos mais clientes com um único comando. Para isso, só criei um array de objetos e mandei inserir... Além disso, criamos um novo campo "cnpj".
@@ -153,7 +153,7 @@ image: "/assets/images/crud.png"
     )<br>
 </blockquote>
 
-<img src="/assets/images/mongo-crud/update.png" alt="">
+<img src="{{ site.baseurl }}/assets/images/mongo-crud/update.png" alt="">
 
 <p>
     Atualizamos nosso registro! Mas... De onde veio esse "_id"? E esse "$set"? 
@@ -174,7 +174,7 @@ image: "/assets/images/crud.png"
     db.clientes.remove({ _id:  ObjectId("588b3e7730913e8d47f304d0") })
 </blockquote>
 
-<img src="/assets/images/mongo-crud/remove.png" alt="">
+<img src="{{ site.baseurl }}/assets/images/mongo-crud/remove.png" alt="">
 
 <p>
     Pronto! O João foi retirado da nossa lista de clientes.

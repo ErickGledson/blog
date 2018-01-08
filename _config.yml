@@ -6,7 +6,7 @@ markdown: kramdown
 highlighter: rouge
 logo: false
 paginate: 10
-baseurl: /
+baseurl: /blog
 domain_name: 'http://erickgledson.github.io/blog'
 google_analytics: 'UA-76589608-1'
 gems: [jekyll-paginate]
